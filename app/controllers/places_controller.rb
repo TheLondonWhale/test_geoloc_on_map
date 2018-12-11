@@ -4,7 +4,7 @@ class PlacesController < ApplicationController
   # GET /places
   # GET /places.json
   def index
-    @places = Place.all
+    @place = Place.all.first
   end
 
   # GET /places/1
